@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>sdk-release-guard</AssemblyName>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>sdk-release-guard</ToolCommandName>
+    <PackageId>SdkReleaseGuard</PackageId>
+    <Description>Detect native Windows DLL release risks from exports, ordinals, forwarders, architecture, and imports.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SdkReleaseGuard.Core\SdkReleaseGuard.Core.csproj" />
+    <PackageReference Include="System.CommandLine" Version="2.0.2" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

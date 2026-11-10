@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SdkReleaseGuard.Cli/SdkReleaseGuard.Cli.csproj" />
+    <Project Path="src/SdkReleaseGuard.Core/SdkReleaseGuard.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SdkReleaseGuard.Tests/SdkReleaseGuard.Tests.csproj" />
+  </Folder>
+</Solution>
